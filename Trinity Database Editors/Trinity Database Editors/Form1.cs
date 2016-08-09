@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Data.SqlClient;
+// Connect to Database for loggin and Registration. 
 
 namespace Trinity_Database_Editors
 {
@@ -41,3 +43,11 @@ namespace Trinity_Database_Editors
         }
     }
 }
+
+
+
+//////////////////////////////////////////////
+//              TO DO LIST                  //
+//   Design                                 //
+//   add form2 for Registration             //
+//   Tidying up the code and links need work//
