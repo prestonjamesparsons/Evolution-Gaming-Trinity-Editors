@@ -21,5 +21,10 @@ namespace Trinity_Database_Editors
         {
 
         }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
