@@ -36,7 +36,7 @@ namespace Trinity_Database_Editors
 
         public void BindData()
         {
-            MySqlConnection con = new MySqlConnection("Server=myServerAddress;Port=3306;Database=myDataBase;Uid=myUsername;Pwd = myPassword; "); //needs a fix for user to add in the data.
+            MySqlConnection con = new MySqlConnection("Server=127.0.0.1;Port=3306;Database=mydb;Uid=root;Pwd = root; "); //needs a fix for user to add in the data.
             con.Open();
             
 
