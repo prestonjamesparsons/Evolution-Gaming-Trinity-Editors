@@ -16,5 +16,10 @@ namespace Trinity_Database_Editors
         {
             InitializeComponent();
         }
+
+        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
