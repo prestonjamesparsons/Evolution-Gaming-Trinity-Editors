@@ -201,6 +201,7 @@
             this.versionToolStripMenuItem.Name = "versionToolStripMenuItem";
             this.versionToolStripMenuItem.Size = new System.Drawing.Size(57, 20);
             this.versionToolStripMenuItem.Text = "Version";
+            this.versionToolStripMenuItem.Click += new System.EventHandler(this.versionToolStripMenuItem_Click);
             // 
             // Form2
             // 
