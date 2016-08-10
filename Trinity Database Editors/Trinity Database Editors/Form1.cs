@@ -46,7 +46,13 @@ namespace Trinity_Database_Editors
 
         private void button2_Click(object sender, EventArgs e)
         {
+            Form2 frm = new Form2();
+            frm.Show();
+        }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            // Check update, Patches with our programming.
         }
     }
 }

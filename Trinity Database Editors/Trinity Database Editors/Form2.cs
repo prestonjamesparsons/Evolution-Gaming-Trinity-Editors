@@ -36,5 +36,10 @@ namespace Trinity_Database_Editors
         {
 
         }
+
+        private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
