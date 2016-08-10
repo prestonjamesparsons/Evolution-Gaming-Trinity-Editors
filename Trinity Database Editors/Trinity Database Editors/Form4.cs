@@ -71,5 +71,25 @@ namespace Trinity_Database_Editors
         {
 
         }
+
+        private void textBox48_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label59_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label61_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label63_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
