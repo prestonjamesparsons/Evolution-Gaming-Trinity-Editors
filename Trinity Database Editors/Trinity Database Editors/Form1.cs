@@ -41,6 +41,11 @@ namespace Trinity_Database_Editors
         {
 
         }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
     }
 }
 
