@@ -91,5 +91,15 @@ namespace Trinity_Database_Editors
         {
 
         }
+
+        private void label83_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
