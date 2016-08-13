@@ -40,6 +40,7 @@
             this.versionToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.versionToolStripMenuItem2 = new System.Windows.Forms.ToolStripMenuItem();
             this.tabPage2 = new System.Windows.Forms.TabPage();
+            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.label115 = new System.Windows.Forms.Label();
             this.label114 = new System.Windows.Forms.Label();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
@@ -119,6 +120,7 @@
             this.label78 = new System.Windows.Forms.Label();
             this.label77 = new System.Windows.Forms.Label();
             this.tabPage1 = new System.Windows.Forms.TabPage();
+            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.label76 = new System.Windows.Forms.Label();
             this.label75 = new System.Windows.Forms.Label();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
@@ -274,8 +276,6 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.tabControl1 = new System.Windows.Forms.TabControl();
-            this.linkLabel3 = new System.Windows.Forms.LinkLabel();
-            this.linkLabel4 = new System.Windows.Forms.LinkLabel();
             this.menuStrip1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage1.SuspendLayout();
@@ -452,6 +452,16 @@
             this.tabPage2.Text = "Gameobject Template";
             this.tabPage2.UseVisualStyleBackColor = true;
             this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
+            // 
+            // linkLabel3
+            // 
+            this.linkLabel3.AutoSize = true;
+            this.linkLabel3.Location = new System.Drawing.Point(976, 42);
+            this.linkLabel3.Name = "linkLabel3";
+            this.linkLabel3.Size = new System.Drawing.Size(111, 13);
+            this.linkLabel3.TabIndex = 155;
+            this.linkLabel3.TabStop = true;
+            this.linkLabel3.Text = "Gameobject Template";
             // 
             // label115
             // 
@@ -1250,6 +1260,16 @@
             this.tabPage1.Text = "Creature Template";
             this.tabPage1.UseVisualStyleBackColor = true;
             this.tabPage1.Click += new System.EventHandler(this.tabPage1_Click);
+            // 
+            // linkLabel4
+            // 
+            this.linkLabel4.AutoSize = true;
+            this.linkLabel4.Location = new System.Drawing.Point(989, 47);
+            this.linkLabel4.Name = "linkLabel4";
+            this.linkLabel4.Size = new System.Drawing.Size(94, 13);
+            this.linkLabel4.TabIndex = 154;
+            this.linkLabel4.TabStop = true;
+            this.linkLabel4.Text = "Creature Template";
             // 
             // label76
             // 
@@ -2487,18 +2507,20 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label2.Location = new System.Drawing.Point(9, 50);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(95, 13);
+            this.label2.Size = new System.Drawing.Size(97, 15);
             this.label2.TabIndex = 3;
             this.label2.Text = "Creature Subname";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Location = new System.Drawing.Point(9, 7);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(78, 13);
+            this.label1.Size = new System.Drawing.Size(80, 15);
             this.label1.TabIndex = 1;
             this.label1.Text = "Creature Name";
             // 
@@ -2511,26 +2533,6 @@
             this.tabControl1.SelectedIndex = 0;
             this.tabControl1.Size = new System.Drawing.Size(1106, 491);
             this.tabControl1.TabIndex = 1;
-            // 
-            // linkLabel3
-            // 
-            this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(976, 42);
-            this.linkLabel3.Name = "linkLabel3";
-            this.linkLabel3.Size = new System.Drawing.Size(111, 13);
-            this.linkLabel3.TabIndex = 155;
-            this.linkLabel3.TabStop = true;
-            this.linkLabel3.Text = "Gameobject Template";
-            // 
-            // linkLabel4
-            // 
-            this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Location = new System.Drawing.Point(989, 47);
-            this.linkLabel4.Name = "linkLabel4";
-            this.linkLabel4.Size = new System.Drawing.Size(94, 13);
-            this.linkLabel4.TabIndex = 154;
-            this.linkLabel4.TabStop = true;
-            this.linkLabel4.Text = "Creature Template";
             // 
             // Form4
             // 
