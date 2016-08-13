@@ -101,5 +101,10 @@ namespace Trinity_Database_Editors
         {
 
         }
+
+        private void label75_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
