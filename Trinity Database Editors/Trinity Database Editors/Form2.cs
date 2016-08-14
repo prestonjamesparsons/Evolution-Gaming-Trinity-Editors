@@ -21,7 +21,7 @@ namespace Trinity_Database_Editors
         private void button1_Click(object sender, EventArgs e)
         {
             //no username?
-            string myConnection = "datasource=YOURSOURCE;port=3306;username=YOURUSERNAME;password=YOURPASSWORD";
+            string myConnection = "datasource=YOURSOURCE;port=3306;userna me=YOURUSERNAME;password=YOURPASSWORD";
             MySqlConnection myConn = new MySqlConnection(myConnection);
             MySqlCommand SelectCommand = new MySqlCommand("select * from dbname.accounts where firstname='" + this.textBox1.Text +  "' surname='" + this.textBox2.Text + "' email='" + this.textBox3.Text + "' password= '" + this.textBox4.Text + "'and terms= '" + this.checkBox1 + "';'", myConn);
             MySqlDataReader myReader;
@@ -63,6 +63,36 @@ namespace Trinity_Database_Editors
         }
 
         private void Form2_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox4_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox5_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkBox1_CheckedChanged(object sender, EventArgs e)
         {
 
         }
