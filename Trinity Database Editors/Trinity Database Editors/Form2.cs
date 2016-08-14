@@ -21,9 +21,9 @@ namespace Trinity_Database_Editors
         private void button1_Click(object sender, EventArgs e)
         {
             //no username?
-            string myConnection = "datasource=YOURSOURCE;port=3306;userna me=YOURUSERNAME;password=YOURPASSWORD";
+            string myConnection = "82.46.51.112;port=3306;username=Connection;password=Connection";
             MySqlConnection myConn = new MySqlConnection(myConnection);
-            MySqlCommand SelectCommand = new MySqlCommand("select * from dbname.accounts where firstname='" + this.textBox1.Text +  "' surname='" + this.textBox2.Text + "' email='" + this.textBox3.Text + "' password= '" + this.textBox4.Text + "'and terms= '" + this.checkBox1 + "';'", myConn);
+            MySqlCommand SelectCommand = new MySqlCommand("select * from Evolutioneditors.accounts where Firstname='" + this.textBox1.Text +  "' Surname='" + this.textBox2.Text + "' Email='" + this.textBox3.Text + "' Password= '" + this.textBox4.Text + "' Datebirth= '" + this.dateTimePicker1.Text + "'and terms= '" + this.checkBox1 + "';'", myConn);
             MySqlDataReader myReader;
             myConn.Open();
             myReader = SelectCommand.ExecuteReader();
@@ -93,6 +93,11 @@ namespace Trinity_Database_Editors
         }
 
         private void checkBox1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void dateTimePicker1_ValueChanged(object sender, EventArgs e)
         {
 
         }
